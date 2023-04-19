@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
 
 st.title('Streamlit 超入門')
@@ -37,16 +34,3 @@ expander3.write('問い合わせ内容の回答')
 
 
 
-
-
-#st.text_input→動的なテキスト入力ボックスが出る。
-#text = st.text_input('あなたの趣味を教えてください。')
- 
- #st.sidebar...左側のバーに寄る
-#'あなたの趣味は、', text, 'です'
-#st.slider→スライダーが出る。 (最小値,最大値,初期値)
-
-#Condition = st.slider('あなたの今の調子は!?',0,100,50)
-#'コンディション:',Condition 
-
-#selectbox→プルダウンメニューができる...list(range(1,10))...初期値1で10個の数字を選べる
